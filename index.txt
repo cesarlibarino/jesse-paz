@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jessé Paz | Nutrição & Alta Performance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            jesse: {
+              bg: '#08090a', /* Preto Puro Esportivo */
+              card: '#111315', /* Bloco complementar */
+              brand: '#06b6d4', /* Azul Elétrico / Ciano High-End */
+              brandHover: '#0891b2',
+              lightText: '#f8fafc',
+              muted: '#94a3b8'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    .text-gradient { background: linear-gradient(to right, #06b6d4, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-jesse-bg text-white font-sans antialiased selection:bg-jesse-brand selection:text-jesse-bg">
+
+  <header class="fixed top-0 w-full z-50 bg-jesse-bg/90 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 h-24 flex items-center justify-between">
+      <div class="text-xl sm:text-2xl font-extrabold uppercase tracking-tight">
+        Jessé Paz <span class="text-jesse-brand text-xs sm:text-sm block font-semibold tracking-wider normal-case">Nutricionista & Personal ®</span>
+      </div>
+      <a href="https://api.whatsapp.com/send/?phone=5527999433750&text=Ol%C3%A1%2CNutri&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnh9f9L7VCdKwiw9f0GRWbNefrgVC6hV0AiCVtvau30ToVPcgKe404jbgPEZs_aem_hp8iAoZCbgvy6ZCnHDW4YQ" target="_blank" class="bg-jesse-brand hover:bg-jesse-brandHover text-jesse-bg text-xs sm:text-sm font-bold uppercase px-6 py-3 rounded tracking-wider transition-all duration-300 transform hover:scale-105 active:scale-95">
+        Vagas Limitadas
+      </a>
+    </div>
+  </header>
+
+  <section class="pt-40 pb-24 px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center w-full mt-10 lg:mt-0">
+      
+      <div class="reveal active text-center lg:text-left order-2 lg:order-1">
+        <span class="inline-block bg-jesse-brand/10 text-jesse-brand border border-jesse-brand/20 text-xs sm:text-sm font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-8">
+          Acompanhamento Duplo: Treino e Dieta Integrados
+        </span>
+        
+        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold uppercase tracking-tighter leading-tight sm:leading-none mb-8">
+          Eu te ajudo a chegar no <span class="text-gradient block lg:inline">seu objetivo físico.</span>
+        </h1>
+        
+        <p class="text-gray-400 text-lg sm:text-xl mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+          Pare de seguir treinos genéricos e dietas copiadas da internet. Tenha o direcionamento de um profissional que domina as <strong class="text-white font-semibold">duas maiores forças do shape</strong>: a ciência da nutrição e a fisiologia do treino pesado.
+        </p>
+        
+        <div class="mb-8 lg:mb-0">
+          <a href="https://api.whatsapp.com/send/?phone=5527999433750&text=Ol%C3%A1%2CNutri&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnh9f9L7VCdKwiw9f0GRWbNefrgVC6hV0AiCVtvau30ToVPcgKe404jbgPEZs_aem_hp8iAoZCbgvy6ZCnHDW4YQ" target="_blank" class="inline-flex items-center justify-center w-full sm:w-auto gap-4 bg-jesse-brand hover:bg-jesse-brandHover text-jesse-bg font-bold uppercase text-sm sm:text-base tracking-widest px-10 py-5 rounded shadow-2xl shadow-jesse-brand/20 transition-all duration-300 transform hover:-translate-y-1">
+            <i data-lucide="dumbbell" class="w-6 h-6"></i> Quero Começar Minha Evolução
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal active flex justify-center lg:justify-end order-1 lg:order-2 mb-10 lg:mb-0">
+        <div class="relative inline-block">
+          <div class="absolute inset-0 bg-jesse-brand/10 rounded-full blur-3xl pointer-events-none"></div>
+          <img 
+            src="jesse-paz.webp" 
+            alt="Jessé Paz - Nutricionista e Personal" 
+            class="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 lg:w-[450px] lg:h-[450px] rounded-full object-cover border-4 border-jesse-brand/30 shadow-2xl shadow-jesse-brand/10 transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-[#040506] border-y border-white/5">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="reveal max-w-3xl mx-auto mb-20">
+        <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+          Por que tentar alinhar isso sozinho <span class="text-jesse-brand">está te atrasando?</span>
+        </h2>
+        <p class="text-gray-400 text-lg leading-relaxed">
+          O maior erro de quem treina é comer sem saber o gasto do treino, ou treinar sem a energia necessária da dieta. Quando essas duas variáveis não se conversam, os resultados desaparecem.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div class="reveal bg-jesse-card p-10 rounded-xl border border-white/5 group hover:border-jesse-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-jesse-brand/10 text-jesse-brand flex items-center justify-center mb-6">
+            <i data-lucide="scale" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Falta de Sincronia</h3>
+          <p class="text-gray-400">Fazer uma dieta de emagrecimento, mas treinar para hipertrofia — ou vice-versa. Sem alinhar o estímulo e o combustível, seu corpo entra em platô.</p>
+        </div>
+
+        <div class="reveal bg-jesse-card p-10 rounded-xl border border-white/5 group hover:border-jesse-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-jesse-brand/10 text-jesse-brand flex items-center justify-center mb-6">
+            <i data-lucide="zap-off" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Treino Sem Rendimento</h3>
+          <p class="text-gray-400">Ir para a academia desmotivado, sem força para progredir carga ou cansando no início da sessão devido a uma divisão errada de carboidratos.</p>
+        </div>
+
+        <div class="reveal bg-jesse-card p-10 rounded-xl border border-white/5 group hover:border-jesse-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-jesse-brand/10 text-jesse-brand flex items-center justify-center mb-6">
+            <i data-lucide="clock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Esforço Desperdiçado</h3>
+          <p class="text-gray-400">Passar meses se dedicando, gastando tempo e dinheiro com suplementos caros para ter mudanças quase imperceptíveis no espelho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      
+      <div class="reveal order-2 md:order-1 bg-gradient-to-br from-jesse-card to-jesse-bg p-12 rounded-2xl border border-white/10 relative overflow-hidden">
+        <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-jesse-brand/5 rounded-full blur-3xl"></div>
+        <h4 class="text-2xl font-extrabold uppercase mb-6 text-jesse-brand">A Metodologia 360°</h4>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-jesse-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-jesse-bg"></i></div>
+            <p class="text-gray-300"><strong>Prescrição de Dieta Inteligente:</strong> Calculada de acordo com a intensidade e o volume exato do seu planejamento de treino.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-jesse-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-jesse-bg"></i></div>
+            <p class="text-gray-300"><strong>Periodização de Treino:</strong> Planilhas focadas nas suas maiores fraquezas estéticas, visando ganho de massa magra ou definição extrema.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-jesse-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-jesse-bg"></i></div>
+            <p class="text-gray-300"><strong>Acompanhamento de Elite:</strong> Suporte especializado direto para ajustar as cargas, calorias e garantir que você execute o plano sem errar.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-1 md:order-2 space-y-8">
+        <div class="reveal">
+          <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+            O fim do achismo. <span class="text-gradient">Estratégia integrada.</span>
+          </h2>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Ter um Nutricionista e um Personal Trainer centralizados no mesmo profissional elimina qualquer falha de comunicação no seu processo. Eu sei exatamente o que o seu corpo precisa na mesa e o que ele vai render no treino.
+          </p>
+        </div>
+        
+        <div class="reveal flex gap-6 items-start">
+          <div class="w-14 h-14 rounded-full bg-jesse-brand/10 text-jesse-brand flex items-center justify-center shrink-0">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold uppercase mb-2">Resultados Acelerados</h3>
+            <p class="text-gray-400 text-sm sm:text-base">Mude a sua composição corporal de forma definitiva, ganhando densidade muscular e mantendo o percentual de gordura controlado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-gradient-to-b from-[#08090a] to-jesse-bg text-center border-t border-white/5">
+    <div class="reveal max-w-4xl mx-auto">
+      <h2 class="text-4xl sm:text-6xl font-extrabold uppercase tracking-tighter mb-8 leading-tight">
+        Abaixe a cabeça e treine. <span class="text-jesse-brand">A estratégia deixa comigo.</span>
+      </h2>
+      <p class="text-gray-400 text-lg sm:text-xl mb-12 leading-relaxed">
+        Chega de perder tempo batendo cabeça com fórmulas mágicas. Clique abaixo e garanta sua vaga para ter um plano completo construído especificamente para o seu objetivo.
+      </p>
+
+      <div class="flex flex-col items-center gap-6">
+        <a href="https://api.whatsapp.com/send/?phone=5527999433750&text=Ol%C3%A1%2CNutri&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnh9f9L7VCdKwiw9f0GRWbNefrgVC6hV0AiCVtvau30ToVPcgKe404jbgPEZs_aem_hp8iAoZCbgvy6ZCnHDW4YQ" target="_blank" class="inline-flex items-center gap-4 bg-jesse-brand hover:bg-jesse-brandHover text-jesse-bg font-bold uppercase text-sm sm:text-lg tracking-widest px-12 py-6 rounded shadow-2xl shadow-jesse-brand/30 transition-all duration-300 transform hover:-translate-y-1">
+          <i data-lucide="message-square" class="w-6 h-6"></i> Iniciar Acompanhamento com o Jessé
+        </a>
+        <div class="flex items-center gap-2 text-jesse-brand text-xs uppercase tracking-widest font-bold">
+          <span class="w-2 h-2 bg-jesse-brand rounded-full animate-ping"></span>
+          Consultoria Presencial & Online Mundo
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center text-xs text-gray-600 border-t border-white/5">
+    <p>&copy; 2026 Jessé Paz | Consultoria Integrada de Alta Performance</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { 
+        if(e.isIntersecting) { 
+          e.target.classList.add('active'); 
+          observer.unobserve(e.target); 
+        } 
+      });
+    }, { threshold: 0.1 });
+    
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>
